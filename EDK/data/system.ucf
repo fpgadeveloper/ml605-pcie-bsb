@@ -1,0 +1,252 @@
+#
+# pin constraints
+#
+NET CLK_N LOC = "H9"  |  DIFF_TERM = "TRUE"  |  IOSTANDARD = "LVDS_25";
+NET CLK_P LOC = "J9"  |  DIFF_TERM = "TRUE"  |  IOSTANDARD = "LVDS_25";
+NET DIP_Switches_8Bits_TRI_I[0] LOC = "D22"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[1] LOC = "C22"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[2] LOC = "L21"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[3] LOC = "L20"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[4] LOC = "C18"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[5] LOC = "B18"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[6] LOC = "K22"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[7] LOC = "K21"  |  IOSTANDARD = "LVCMOS15";
+NET Ethernet_Lite_COL LOC = "AK13"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_CRS LOC = "AL13"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_MDC LOC = "AP14"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_MDIO LOC = "AN14"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_PHY_RST_N LOC = "AH13"  |  IOSTANDARD = "LVCMOS25"  |  TIG;
+NET Ethernet_Lite_RXD[0] LOC = "AN13"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_RXD[1] LOC = "AF14"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_RXD[2] LOC = "AE14"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_RXD[3] LOC = "AN12"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_RX_CLK LOC = "AP11"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_RX_DV LOC = "AM13"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_RX_ER LOC = "AG12"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_TXD[0] LOC = "AM11"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_TXD[1] LOC = "AL11"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_TXD[2] LOC = "AG10"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_TXD[3] LOC = "AG11"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_TX_CLK LOC = "AD12"  |  IOSTANDARD = "LVCMOS25";
+NET Ethernet_Lite_TX_EN LOC = "AJ10"  |  IOSTANDARD = "LVCMOS25";
+NET IIC_DVI_SCL LOC = "AN10"  |  DRIVE = "6"  |  IOSTANDARD = "LVCMOS25"  |  SLEW = "SLOW";
+NET IIC_DVI_SDA LOC = "AP10"  |  DRIVE = "6"  |  IOSTANDARD = "LVCMOS25"  |  SLEW = "SLOW";
+NET IIC_EEPROM_SCL LOC = "AK9"  |  DRIVE = "6"  |  IOSTANDARD = "LVCMOS25"  |  SLEW = "SLOW";
+NET IIC_EEPROM_SDA LOC = "AE9"  |  DRIVE = "6"  |  IOSTANDARD = "LVCMOS25"  |  SLEW = "SLOW";
+NET IIC_FMC_SCL LOC = "AF13"  |  DRIVE = "6"  |  IOSTANDARD = "LVCMOS25"  |  SLEW = "SLOW";
+NET IIC_FMC_SDA LOC = "AG13"  |  DRIVE = "6"  |  IOSTANDARD = "LVCMOS25"  |  SLEW = "SLOW";
+NET IIC_SFP_SCL LOC = "AA34"  |  DRIVE = "6"  |  IOSTANDARD = "LVCMOS25"  |  SLEW = "SLOW";
+NET IIC_SFP_SDA LOC = "AA33"  |  DRIVE = "6"  |  IOSTANDARD = "LVCMOS25"  |  SLEW = "SLOW";
+NET LEDs_8Bits_TRI_O[0] LOC = "AC22"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[1] LOC = "AC24"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[2] LOC = "AE22"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[3] LOC = "AE23"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[4] LOC = "AB23"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[5] LOC = "AG23"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[6] LOC = "AE24"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[7] LOC = "AD24"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_Positions_TRI_O[0] LOC = "AP24"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_Positions_TRI_O[1] LOC = "AE21"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_Positions_TRI_O[2] LOC = "AH27"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_Positions_TRI_O[3] LOC = "AH28"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_Positions_TRI_O[4] LOC = "AD21"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[0] LOC = "AA23"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[10] LOC = "C10"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[11] LOC = "D10"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[12] LOC = "C9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[13] LOC = "D9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[14] LOC = "A9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[15] LOC = "A8"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[16] LOC = "E8"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[17] LOC = "E9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[18] LOC = "B8"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[19] LOC = "C8"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[1] LOC = "AL9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[20] LOC = "AD10"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[21] LOC = "AC9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[22] LOC = "AK8"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[23] LOC = "AL8"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[2] LOC = "AF9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[3] LOC = "AF10"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[4] LOC = "AN9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[5] LOC = "AP9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[6] LOC = "AG8"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[7] LOC = "AH8"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[8] LOC = "F9"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_address[9] LOC = "F10"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_ce_n LOC = "AJ12"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[0] LOC = "M23"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[10] LOC = "H25"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[11] LOC = "H24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[12] LOC = "V24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[13] LOC = "W24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[14] LOC = "AF25"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[15] LOC = "AF24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[1] LOC = "L24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[2] LOC = "F24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[3] LOC = "F23"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[4] LOC = "N23"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[5] LOC = "N24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[6] LOC = "H23"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[7] LOC = "G23"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[8] LOC = "R24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_data[9] LOC = "P24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_oe_n LOC = "AA24"  |  IOSTANDARD = "LVCMOS25";
+NET Linear_Flash_we_n LOC = "AF23"  |  IOSTANDARD = "LVCMOS25";
+NET Push_Buttons_5Bits_TRI_I[0] LOC = "G26"  |  IOSTANDARD = "LVCMOS15";
+NET Push_Buttons_5Bits_TRI_I[1] LOC = "A19"  |  IOSTANDARD = "LVCMOS15";
+NET Push_Buttons_5Bits_TRI_I[2] LOC = "G17"  |  IOSTANDARD = "LVCMOS15";
+NET Push_Buttons_5Bits_TRI_I[3] LOC = "A18"  |  IOSTANDARD = "LVCMOS15";
+NET Push_Buttons_5Bits_TRI_I[4] LOC = "H17"  |  IOSTANDARD = "LVCMOS15";
+NET RESET LOC = "H10"  |  IOSTANDARD = "SSTL15"  |  TIG;
+NET RS232_Uart_1_sin LOC = "J24"  |  IOSTANDARD = "LVCMOS25";
+NET RS232_Uart_1_sout LOC = "J25"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_CEN LOC = "AJ14"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_CLK LOC = "AE16"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPA[0] LOC = "AC15"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPA[1] LOC = "AP15"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPA[2] LOC = "AG17"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPA[3] LOC = "AH17"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPA[4] LOC = "AG15"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPA[5] LOC = "AF15"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPA[6] LOC = "AK14"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPD[0] LOC = "AM15"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPD[1] LOC = "AJ17"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPD[2] LOC = "AJ16"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPD[3] LOC = "AP16"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPD[4] LOC = "AG16"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPD[5] LOC = "AH15"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPD[6] LOC = "AF16"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPD[7] LOC = "AN15"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_MPIRQ LOC = "L9"  |  IOSTANDARD = "LVCMOS25"  |  TIG;
+NET SysACE_OEN LOC = "AL15"  |  IOSTANDARD = "LVCMOS25";
+NET SysACE_WEN LOC = "AL14"  |  IOSTANDARD = "LVCMOS25";
+#
+# additional constraints
+#
+
+NET "CLK" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 200000 kHz;
+#
+# PERSTN (input) signal.  The perstn signal should be
+# obtained from the PCI Express interface if possible.  For
+# slot based form factors, a perstn reset signal is usually
+# present on the connector.  For cable based form factors, a
+# perstn signal may not be available.  In this case, the
+# system reset signal must be generated locally by some form of
+# supervisory circuit.  You may change the IOSTANDARD and LOC
+# to suit your requirements and VCCO voltage banking rules.
+#
+
+NET "PCIe_perstn" TIG;
+NET "PCIe_perstn" LOC = AE13 | IOSTANDARD = LVCMOS25 | PULLUP | NODELAY ;
+
+
+
+###############################################################################
+#
+# Placement Constraints
+#
+###############################################################################
+
+#
+# SYS clock 250 MHz (input) signal.  The sys_clk_p and sys_clk_n
+# signals are the PCI Express reference clock. Virtex-6 GT
+# Transceiver architecture requires the use of a dedicated clock
+# resources (FPGA input pins) associated with each GT Transceiver.
+# To use these pins an IBUFDS primitive (refclk_ibuf) is
+# instantiated in user's design.
+# Please refer to the Virtex-5 GT Transceiver User Guide
+# (UG) for guidelines regarding clock resource selection.
+#
+
+INST "*/PCIe_Diff_Clk_I/USE_IBUFDS_GTXE1.GEN_IBUFDS_GTXE1[0].IBUFDS_GTXE1_I" LOC = IBUFDS_GTXE1_X0Y6;
+
+#
+# Transceiver instance placement.  This constraint selects the
+# transceivers to be used, which also dictates the pinout for the
+# transmit and receive differential pairs.  Please refer to the
+# Virtex-6 GT Transceiver User Guide (UG) for more
+# information.
+#
+
+# PCIe Lane 0
+INST "*/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX" LOC = GTXE1_X0Y15;
+
+# PCIe Lane 1
+INST "*/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[1].GTX" LOC = GTXE1_X0Y14;
+
+# PCIe Lane 2
+INST "*/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[2].GTX" LOC = GTXE1_X0Y13;
+
+# PCIe Lane 3
+INST "*/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[3].GTX" LOC = GTXE1_X0Y12;
+
+#
+# PCI Express Block placement. This constraint selects the PCI Express
+# Block to be used.
+#
+
+INST "*/pcie_2_0_i/pcie_block_i" LOC = PCIE_X0Y1;
+
+
+#
+# MMCM Placment. This constraint selects the MMCM placement.
+#
+
+# (from CoreGen) INST "core*/pcie_clocking_i/mmcm_adv_i" LOC = MMCM_ADV_X0Y7;
+INST "*/pcie_clocking_i/mmcm_adv_i" LOC = MMCM_ADV_X0Y7;
+
+
+
+
+
+###############################################################################
+#
+# Timing Constraints
+#
+###############################################################################
+
+
+# 100 MHz Reference Clock
+NET "PCIe_Diff_Clk" TNM_NET = "SYSCLK" ;
+
+# 250MHz Refclk
+# TIMESPEC "TS_SYSCLK"  = PERIOD "SYSCLK" 250.00 MHz HIGH 50 % ;
+# 100MHz Refclk
+TIMESPEC "TS_SYSCLK"  = PERIOD "SYSCLK" 100.00 MHz HIGH 50 % ;
+# 125 MHz Clock on output of MMCM
+# (need to update this constraint to a derived constraint, and
+# only constrain the input clock to the MMCM module)
+
+NET "*/pcie_clocking_i/clk_125" TNM_NET = "CLK_125" ;
+
+# 250MHz Refclk
+# TIMESPEC "TS_CLK_125" = PERIOD "CLK_125" TS_SYSCLK/2.0 HIGH 50 % PRIORITY 1;
+# 100 MHz Refclk
+TIMESPEC "TS_CLK_125" = PERIOD "CLK_125" TS_SYSCLK/0.8 HIGH 50 % PRIORITY 1;
+
+
+# (updated constraints from CoreGen)
+PIN "*/trn_reset_n_int_i.CLR" TIG;
+PIN "*/trn_reset_n_i.CLR" TIG;
+PIN "*/pcie_clocking_i/mmcm_adv_i.RST" TIG;
+
+
+# New Multi-Cycle Constraints from PCIe hard block
+
+NET "*/sig_blk_command<2>" TPTHRU = "TP_SIG_BLK_COMMAND";
+
+NET "*/sig_blk_dcontrol<5>" TPTHRU = "TP_SIG_BLK_DCONTROL";
+NET "*/sig_blk_dcontrol<6>" TPTHRU = "TP_SIG_BLK_DCONTROL";
+NET "*/sig_blk_dcontrol<7>" TPTHRU = "TP_SIG_BLK_DCONTROL";
+NET "*/sig_blk_dcontrol<12>" TPTHRU = "TP_SIG_BLK_DCONTROL";
+NET "*/sig_blk_dcontrol<13>" TPTHRU = "TP_SIG_BLK_DCONTROL";
+NET "*/sig_blk_dcontrol<14>" TPTHRU = "TP_SIG_BLK_DCONTROL";
+
+
+INST "*/comp_enhanced_core_top_wrap/*/pcie_block_i" TNM_NET = "TNM_PCIE_HARD_BLOCK";
+
+TIMESPEC TS_SIG_BLK_COMMAND = FROM "TNM_PCIE_HARD_BLOCK" THRU "TP_SIG_BLK_COMMAND" TO FFS TIG;
+TIMESPEC TS_SIG_BLK_DCONTROL = FROM "TNM_PCIE_HARD_BLOCK" THRU "TP_SIG_BLK_DCONTROL" TO FFS TIG;
+
